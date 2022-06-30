@@ -42,3 +42,27 @@
     transform: scale(0.9);
     transition: opacity 300ms, transform 300ms;
 }
+
+.page__wrapper {
+    margin-top: 15px;
+    display: flex;
+}
+
+.page:first-child {
+    margin: 0;
+}
+
+.page {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.page__current {
+    border: 2px solid black;
+    font-weight: bold;
+}
