@@ -1,0 +1,14 @@
+.welcome {
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.welcome__not__found {
+    font-size: 25px;
+    color: gray;
+}
